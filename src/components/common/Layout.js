@@ -39,12 +39,12 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
-                                    <Link to="/">
+                                    {/* <Link to="/">
                                         {site.logo ?
                                             <img className="site-logo" src={site.logo} alt={site.title} />
                                             : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
                                         }
-                                    </Link>
+                                    </Link> */}
                                 </div>
                                 <div className="site-mast-right">
                                     { site.twitter && <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
@@ -61,11 +61,11 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <nav className="site-nav">
                                 <div className="site-nav-left">
                                     {/* The navigation items as setup in Ghost */}
-                                    <Navigation data={site.navigation} navClass="site-nav-item" />
+                                    {/* <Navigation data={site.navigation} navClass="site-nav-item" /> */}
                                 </div>
-                                <div className="site-nav-right">
+                                {/* <div className="site-nav-right">
                                     <Link className="site-nav-button" to="/about">About</Link>
-                                </div>
+                                </div> */}
                             </nav>
                         </div>
                     </header>
