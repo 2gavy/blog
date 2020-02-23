@@ -41,7 +41,7 @@ const Post = ({ data, location }) => {
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
                         </section>
-                        <section className="post-full-comments">
+                        {/* <section className="post-full-comments">
                             <form name="contact" method="POST" data-netlify="true">
                                 <p>
                                     <label>Your Name: <input type="text" name="name" /></label>
@@ -56,7 +56,7 @@ const Post = ({ data, location }) => {
                                     <button type="submit">Send</button>
                                 </p>
                             </form>
-                        </section>
+                        </section> */}
                     </article>
                 </div>
             </Layout>
